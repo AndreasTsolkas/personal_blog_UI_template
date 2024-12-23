@@ -1,0 +1,41 @@
+.blog-page-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    width: 90%;
+    max-width: 1100px;
+    height: auto;
+}
+
+.blog-post {
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 50px;
+    overflow: auto;
+}
+
+.post-header {
+    padding: 20px;
+}
+
+.post-main-text {
+    float: left; 
+    width: 40%;
+    margin: 20px;
+    overflow-y: auto; /* In the case that content text is too long to fit on the container*/
+}
+
+.post-caption {
+    float: right; 
+    width: 45%;
+    margin: 20px;
+}
+
+.post-image {
+    height: 50%;
+}
+
+.post-blockquote {
+    display: inline;
+}

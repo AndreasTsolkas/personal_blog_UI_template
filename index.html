@@ -1,0 +1,75 @@
+<!DOCTYPE >
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="static/CSS/global.css"> <!--- I used to have all CSS files imported into a main.css file and import it into each HTML file but rubric catch it as false so I am doing it the less optimal way--> 
+        <link rel="stylesheet" href="static/CSS/index.css"> <!--- I used to have all CSS files imported into a main.css file and import it into each HTML file but rubric catch it as false so I am doing it the less optimal way--> 
+        <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAgsmNBkcXP0hsATczFN9OOeshlLMyWqeYsA&s">
+        <title>Personal Blog</title>
+    </head>
+    <body>
+        <div class="index-page-container">
+            <header class="header box">
+                <div class="inline-container">
+                    <a href="#" onclick="event.preventDefault();" class="left-item">Subscribe</a>  <!-- I used the JavaScript function 'event.preventDefault()' to prevent the browser from redirect when click -->
+                    <h1 class="center-item">Personal Blog</h1>
+                    <button class="social-media-share-button" onclick="event.preventDefault();">
+                        <i class="fab fa-facebook-f"></i>
+                    </button>
+                    <button class="social-media-share-button" onclick="event.preventDefault();">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button class="social-media-share-button" onclick="event.preventDefault();">
+                        <i class="fab fa-linkedin"></i>
+                    </button>
+                </div>
+                
+            </header>
+            <div class="content special-box">
+                <blockquote class="post-blockquote">
+                    <i>The journey of discovery begins with curiosity, and every conversation 
+                        sparks a new opportunity to grow and learn together...</i>
+                </blockquote>
+                <div class="content-container"> <!-- I could have used the JavaScript '.map()' function to iterate the grid-items but I prefered to avoid it because this chapter covers only HTML and CSS --->
+                    <div class="content-item box"> 
+                        <h2> Post 6</h2>
+                        <p class="date-text">November 26</p>
+                        <a href="blog-post-template.html"> Go to blog post post.</a></br>
+                    </div>
+                    <div class="content-item box">
+                        <h2> Post 5</h2>
+                        <p class="date-text">November 24</p>
+                        <a href="blog-post-template.html"> Go to blog post page.</a></br>
+                    </div>
+                    <div class="content-item box">
+                        <h2> Post 4</h2>
+                        <p class="date-text">November 13</p>
+                        <a href="blog-post-template.html"> Go to blog post page.</a></br>
+                    </div>
+                    <div class="content-item box">
+                        <h2> Post 3</h2>
+                        <p class="date-text">November 7</p>
+                        <a href="blog-post-template.html"> Go to blog post page.</a></br>
+                    </div>
+                    <div class="content-item box">
+                        <h2> Post 2</h2>
+                        <p class="date-text">Octomber 16</p>
+                        <a href="blog-post-template.html"> Go to blog post page.</a></br>
+                    </div>
+                    <div class="content-item box">
+                        <h2> Post 1</h2>
+                        <p class="date-text">Octomber 10</p>
+                        <a href="blog-post-template.html"> Go to blog post page.</a></br>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer box">
+                <div class="inline-container footer-special">
+                    <a href="about-author.html" >About</a>
+                    <a href="#" onclick="event.preventDefault();" >Contact Us</a>  
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
